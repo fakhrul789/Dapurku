@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:foreground="?attr/selectableItemBackground"
+        card_view:cardCornerRadius="4dp"
+        tools:cardPreventCornerOverlap="false"
+        tools:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/tips_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:textAppearance="?attr/textAppearanceListItem" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/bahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:foreground="?attr/selectableItemBackground"
+        card_view:cardCornerRadius="4dp"
+        tools:cardPreventCornerOverlap="false"
+        tools:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/bahan_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:textAppearance="?attr/textAppearanceListItem" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/caramasak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:foreground="?attr/selectableItemBackground"
+        card_view:cardCornerRadius="4dp"
+        tools:cardPreventCornerOverlap="false"
+        tools:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/caramasa_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:textAppearance="?attr/textAppearanceListItem" />
+    </android.support.v7.widget.CardView>
+</LinearLayout>
